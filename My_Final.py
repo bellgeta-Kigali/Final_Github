@@ -9,7 +9,7 @@ def initialize_gee():
     """
     try:
         # 1. Load the Service Account key from environment variables
-        key_json = os.environ.get('Mt_Secret_Name')
+        key_json = os.environ.get('My_Secret_Name')
         
         if not key_json:
             print("❌ ERROR: My_Secret_Name not found in environment.")
