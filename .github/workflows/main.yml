@@ -30,8 +30,8 @@ jobs:
           pip install earthengine-api
 
       # 4. Run the script
-      - name: Run Your_File_Name???
+      - name: Run My_Final
         env:
           # This maps your GitHub Secret to an Environment Variable
           Your_Secret_Name????: ${{ secrets.Your_Secret_Name???? }}
-        run: python Your_File_Name???.py
+        run: python My_Final.py
